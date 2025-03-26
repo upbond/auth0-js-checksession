@@ -500,7 +500,7 @@
           redirectUri: REDIRECT_URL,
           clientID: clientId,
           scope: 'openid profile email',
-          responseType: 'token id_token'
+          responseType: 'code id_token'
         };
 
         webAuth = new auth0.WebAuth(webAuthConfig);
