@@ -2,7 +2,7 @@ Forked from [auth0/auth0.js](https://github.com/auth0/auth0.js/blob/master/examp
 
 ---
 
-### Log in to an organization
+### Log in
 
 To log in to a specific organization, pass the ID or name as the `organization` parameter when creating the `WebAuth` client:
 
@@ -10,14 +10,6 @@ To log in to a specific organization, pass the ID or name as the `organization` 
 const webAuth = new WebAuth({
   domain: '{YOUR_UPBOND_DOMAIN}',
   clientID: '{YOUR_UPBOND_CLIENT_ID}'
-});
-```
-
-You can also specify an organization when calling `authorize`:
-
-```js
-webAuth.authorize({
-  organization: '{YOUR_UPBOND_ORGANIZATION_ID_OR_NAME}'
 });
 ```
 
@@ -56,7 +48,7 @@ You can use this sample to check whether you have an active session using UPBOND
 
 ---
 
-### 組織へのログイン
+### ログイン
 
 特定の組織にログインするには、`WebAuth` クライアントを作成する際に `organization` パラメータとしてIDまたは名前を指定します：
 
@@ -64,14 +56,6 @@ You can use this sample to check whether you have an active session using UPBOND
 const webAuth = new WebAuth({
   domain: '{YOUR_UPBOND_DOMAIN}',
   clientID: '{YOUR_UPBOND_CLIENT_ID}'
-});
-```
-
-また、`authorize` を呼び出す際に組織を指定することも可能です：
-
-```js
-webAuth.authorize({
-  organization: '{YOUR_UPBOND_ORGANIZATION_ID_OR_NAME}'
 });
 ```
 
