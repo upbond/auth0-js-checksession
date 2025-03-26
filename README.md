@@ -55,7 +55,7 @@ You can use this sample to check whether you have an active session using UPBOND
 2. **Open** `http://localhost:3000` in your browser.
 3. At the **bottom of the page**, you'll see a **Session Config** section.
 4. **Fill in** only the `domain` and `clientID` fields, then click **Update**.
-5. In a **new browser tab**, go to `https://id.grand-seiko.com` and **log in**.
+5. In a **new browser tab**, go to GSID mypage and **log in**.
 6. Return to the sample page and scroll to the **"Check if you have an active session"** section.
 7. Click **Check Session**.
 
