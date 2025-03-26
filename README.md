@@ -1,12 +1,5 @@
 Forked from [auth0/auth0.js](https://github.com/auth0/auth0.js/blob/master/example/index.html)
 
-## Table of Contents
-
-- [Passwordless Login](#passwordless-login)
-- [Organizations](#organizations)
-- [WebAuth.client.login(options, callback)](#webauthclientloginoptions-callback)
-- [Run the Sample](#run-the-sample)
-
 ---
 
 ### Log in to an organization
